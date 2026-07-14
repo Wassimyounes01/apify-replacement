@@ -5,8 +5,9 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "test": "node scrapers/google-maps-scraper.cjs --help || true",
-    "check": "node -e \"require('fs').readdirSync('scrapers').forEach(f=>f.endsWith('.cjs')&&require('child_process').execSync('node --check scrapers/'+f))\""
+    "test": "node -e \"const {extractEmailsFromHtml}=require('./lib/email-extract.cjs');const e=extractEmailsFromHtml('<a href=mailto:hi&#64;acme.com>x</a> jane [at] acme [dot] com');if(e.length<2)throw new Error('email-extract failed: '+JSON.stringify(e));console.log('email-extract ok:',e.join(', '))\" && node engines/index.cjs --list",
+    "check": "node -e \"const cp=require('child_process');['scrapers','scrapers/open-data','lib','engines','pipeline','enrichment','clipper'].forEach(d=>{try{require('fs').readdirSync(d).forEach(f=>f.endsWith('.cjs')&&cp.execSync('node --check '+d+'/'+f))}catch(e){}});console.log('ok')\"",
+    "engines": "node engines/index.cjs --list"
   },
   "keywords": [
     "scraping",
@@ -15,6 +16,11 @@
     "tiktok",
     "lead-generation",
     "open-data",
+    "license-database",
+    "stealth",
+    "crawl4ai",
+    "firecrawl",
+    "scrapling",
     "puppeteer"
   ],
   "engines": {

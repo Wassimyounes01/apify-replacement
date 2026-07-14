@@ -23,3 +23,6 @@ cache/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# runtime scrape output (created on first run)
+data/
