@@ -1,6 +1,6 @@
-# Contributing to HARVEST
+# Contributing to Apify Replacement
 
-Thanks for your interest! HARVEST is MIT-licensed and built to be forked, extended, and
+Thanks for your interest! Apify Replacement is MIT-licensed and built to be forked, extended, and
 dropped into your own stack.
 
 ## Ground rules

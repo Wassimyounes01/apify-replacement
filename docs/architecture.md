@@ -1,4 +1,4 @@
-# HARVEST — Architecture
+# Apify Replacement — Architecture
 
 A drop-in replacement for paid scraping actors: Google Maps, Instagram, TikTok, Facebook, YouTube, and open web/lead data — using public endpoints, embedded JSON, and open data APIs. No per-run billing, no vendor lock-in.
 

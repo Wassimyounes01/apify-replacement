@@ -1,10 +1,10 @@
-<!-- HARVEST — white-label. No personal or company identifiers in this file by design. -->
+<!-- Apify Replacement — white-label. No personal or company identifiers in this file by design. -->
 
 <p align="center">
-  <img src="assets/hero.svg" alt="HARVEST" width="100%">
+  <img src="assets/hero.svg" alt="Apify Replacement" width="100%">
 </p>
 
-<h1 align="center">🌾 HARVEST</h1>
+<h1 align="center">🌾 Apify Replacement</h1>
 
 <p align="center">
   <b>Every scraper you were paying a SaaS for — free, self-hosted, and yours.</b><br>
@@ -24,9 +24,9 @@
 
 ---
 
-## Why HARVEST
+## Why Apify Replacement
 
-Paid scraping platforms meter you per run and lock your pipeline behind an API you don't control. HARVEST is the same capability, self-hosted: each scraper pulls from a public endpoint, embedded page JSON, or an open-data REST API — so it costs nothing to run and never disappears behind a pricing change. Bring a headless browser and you're done.
+Paid scraping platforms meter you per run and lock your pipeline behind an API you don't control. Apify Replacement is the same capability, self-hosted: each scraper pulls from a public endpoint, embedded page JSON, or an open-data REST API — so it costs nothing to run and never disappears behind a pricing change. Bring a headless browser and you're done.
 
 ---
 
@@ -136,4 +136,4 @@ harvest/
 
 ---
 
-<p align="center"><sub>HARVEST · free scrapers · no metering · self-hosted · MIT</sub></p>
+<p align="center"><sub>Apify Replacement · free scrapers · no metering · self-hosted · MIT</sub></p>
