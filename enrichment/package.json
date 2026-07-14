@@ -1,0 +1,14 @@
+{
+  "name": "apollo-replacement",
+  "version": "1.0.0",
+  "description": "B2B contact enrichment toolkit — find and verify decision-maker emails locally, $0. Permute patterns, MX/SMTP verify, score, export.",
+  "main": "enrich.cjs",
+  "bin": { "enrich": "enrich.cjs" },
+  "scripts": {
+    "enrich": "node enrich.cjs",
+    "example": "node enrich.cjs --in examples/companies.csv --out enriched.csv"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=16" },
+  "dependencies": {}
+}

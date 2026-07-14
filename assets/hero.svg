@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="HARVEST — Every scraper you were paying a SaaS for — free, self-hosted, and yours.">
+  <defs>
+    <style>
+      :root { color-scheme: light dark; }
+      .bg    { fill: #0A0D12; }
+      .grid  { stroke: #56E0A0; stroke-opacity: .07; }
+      .title { fill: #E6EDF3; font-family: ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace; font-weight: 700; }
+      .tag   { fill: #8B98A5; font-family: ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace; }
+      .accent{ fill: #56E0A0; }
+      .chip  { fill: #11151d; stroke: #1e2733; }
+      .chipt { fill: #8B98A5; font-family: ui-monospace,monospace; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #EEF3F1; } .title { fill: #0F1720; } .tag { fill: #4d5b57; }
+        .chip { fill: #ffffff; stroke: #dbe4df; } .chipt { fill: #4d5b57; } .grid { stroke-opacity: .10; }
+      }
+    </style>
+    <pattern id="g" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path class="grid" d="M44 0H0V44" fill="none" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect class="bg" width="1200" height="340"/>
+  <rect width="1200" height="340" fill="url(#g)"/>
+
+  <!-- accent bar -->
+  <rect class="accent" x="72" y="120" width="6" height="100" rx="3"/>
+
+  <!-- eyebrow -->
+  <text class="accent" x="98" y="108" font-family="ui-monospace,monospace" font-size="15" letter-spacing="6" font-weight="600">FREE DATA-SCRAPING ARSENAL</text>
+
+  <!-- title -->
+  <text class="title" x="96" y="188" font-size="76">🌾 HARVEST</text>
+
+  <!-- tagline -->
+  <text class="tag" x="98" y="232" font-size="22">Every scraper you were paying a SaaS for — free, self-hosted, and yours.</text>
+
+  <!-- chips -->
+  <rect class="chip" x="96" y="272" width="114" height="30" rx="15"/>
+  <text class="chipt" x="109" y="292" font-size="13">google-maps</text>
+  <rect class="chip" x="222" y="272" width="98" height="30" rx="15"/>
+  <text class="chipt" x="235" y="292" font-size="13">instagram</text>
+  <rect class="chip" x="332" y="272" width="72" height="30" rx="15"/>
+  <text class="chipt" x="345" y="292" font-size="13">tiktok</text>
+  <rect class="chip" x="416" y="272" width="89" height="30" rx="15"/>
+  <text class="chipt" x="429" y="292" font-size="13">facebook</text>
+  <rect class="chip" x="518" y="272" width="81" height="30" rx="15"/>
+  <text class="chipt" x="531" y="292" font-size="13">youtube</text>
+</svg>

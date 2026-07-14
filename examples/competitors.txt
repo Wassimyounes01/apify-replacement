@@ -1,0 +1,7 @@
+# Instagram handles to track (one per line).
+# Lines starting with # are comments.
+
+# example competitors — replace with your actual list
+# competitor_one
+# competitor_two
+# brand_handle_three

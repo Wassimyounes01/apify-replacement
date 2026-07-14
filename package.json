@@ -1,0 +1,28 @@
+{
+  "name": "harvest",
+  "version": "1.0.0",
+  "description": "Every scraper you were paying a SaaS for — free, self-hosted, and yours.",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node scrapers/google-maps-scraper.cjs --help || true",
+    "check": "node -e \"require('fs').readdirSync('scrapers').forEach(f=>f.endsWith('.cjs')&&require('child_process').execSync('node --check scrapers/'+f))\""
+  },
+  "keywords": [
+    "scraping",
+    "google-maps",
+    "instagram",
+    "tiktok",
+    "lead-generation",
+    "open-data",
+    "puppeteer"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "puppeteer": "^24.0.0",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {}
+}
