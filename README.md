@@ -107,6 +107,14 @@ node pipeline/qualified-leads.cjs --help
 
 ---
 
+## See it run
+
+<p align="center">
+  <img src="assets/product.svg" alt="Apify Replacement — product shot" width="100%">
+</p>
+
+---
+
 ## Repository layout
 
 ```
@@ -123,6 +131,19 @@ harvest/
 ├── examples/           ← hashtag research, competitor monitoring
 └── docs/               ← source-by-source mapping + notes
 ```
+
+---
+
+## Concepts
+
+| Concept | Meaning |
+|---|---|
+| **Scraper** | A standalone collector per source — Maps/Business listings, social profiles, YouTube comments/transcripts, open data, generic pages. |
+| **Stealth fetch** | Realistic headers, retries, and pacing for plain-HTTP targets; headless DOM only where a page demands it. |
+| **Robots-aware crawling** | The contact-email crawler reads robots.txt before it reads anything else. |
+| **Engine adapter** | crawl4ai, firecrawl, and scrapling plug in behind one fetchVia() contract — auto-detected, graceful fallback to the builtin. |
+| **Enrichment pipeline** | Dedupe → enrich → qualify → personalized opener, turning raw scraped rows into ranked leads. |
+| **Open-data lane** | Overpass/OSM and government portals (ArcGIS, Socrata) — keyless sources most SaaS scrapers charge for. |
 
 ---
 
